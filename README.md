@@ -10,9 +10,11 @@
 <p>The eight queens puzzle has 92 <b>distinct</b> solutions. If solutions that differ only by <a href="https://en.wikipedia.org/wiki/Symmetry" title="Symmetry">symmetry operations</a> (rotations and reflections) of the board are <a href="https://en.wikipedia.org/wiki/Up_to" title="Up to">counted as one</a>, the puzzle has 12 <b>fundamental</b> solutions.</p>
 
 A fundamental solution usually has eight variants (including its original form) obtained by rotating 90, 180, or 270° and then reflecting each of the four rotational variants in a mirror in a fixed position. However, should a solution be equivalent to its own 90° rotation (as happens to one solution with five queens on a 5x5 board), that fundamental solution will have only two variants (itself and its reflection).
+<br>
 
 
 ```C#
+
 //first
             for (int i = 0; i < N; i++)
             {
