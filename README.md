@@ -1,7 +1,9 @@
 # 8 queen chess problem
+
 <p align="center">
 <img src="http://mathworld.wolfram.com/images/eps-gif/QueensMax_800.gif">
 </p>
+
 <p>The <b>eight queens puzzle</b> is the problem of placing eight <a href="https://en.wikipedia.org/wiki/Chess" title="Chess">chess</a> <a href="https://en.wikipedia.org/wiki/Queen_(chess)" title="Queen (chess)">queens</a> on an 8×8 chessboard so that no two queens threaten each other. Thus, a solution requires that no two queens share the same row, column, or diagonal. The eight queens puzzle is an example of the more general <b><i>n</i> queens problem</b> of placing <i>n</i> non-attacking queens on an <i>n</i>×<i>n</i> chessboard, for which solutions exist for all natural numbers <i>n</i> with the exception of <i>n</i>=2 and <i>n</i>=3.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"></a></sup></p><br>
 
 
@@ -13,6 +15,12 @@ A fundamental solution usually has eight variants (including its original form) 
 Should a solution be equivalent to its own 180° rotation (but not to its 90° rotation), it will have four variants (itself and its reflection, its 90° rotation and the reflection of that). It is not possible for a solution to be equivalent to its own reflection (except at n=1) because that would require two queens to be facing each other. (For n-queen problem's solution to be equivalent to its own mirror-image solution, the solution needs to be symmetrical by the center of the board either horizontally or vertically. Then, two queens would be facing each other, making it not a solution. ) Of the 12 fundamental solutions to the problem with eight queens on an 8x8 board, exactly one is equal to its own 180° rotation, and none is equal to its 90° rotation; thus, the number of distinct solutions is 11*8 + 1*4 = 92 (where the 8 is derived from four 90° rotational positions and their reflections, and the 4 is derived from two 180° rotational positions and their reflections).
 
 <br><br><br><br>
+
+
+<p align="center">
+<img src="https://github.com/VanHakobyan/8-queen-chess-problem/blob/master/GIFchess.gif">
+</p>
+
 
 ```C#
 
@@ -46,9 +54,3 @@ for (int i = 0, j = N - 2; j >= 0; j--)
 }
 
 ```
-<p align="center">
-<img src="https://github.com/VanHakobyan/8-queen-chess-problem/blob/master/GIFchess.gif">
-</p>
-
-
-
