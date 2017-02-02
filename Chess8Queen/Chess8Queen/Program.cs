@@ -13,7 +13,9 @@ namespace Chess8Queen
         const int N = 8;
         public static bool SolutionCheck(int[,] board)
         {
-            //Row check
+           
+
+            //first
             for (int i = 0; i < N; i++)
             {
                 int sum = 0;
@@ -26,8 +28,9 @@ namespace Chess8Queen
                     return false;
                 }
             }
-            //Main diagonal check
-            //above
+           
+
+            //second
             for (int i = 0, j = N - 2; j >= 0; j--)
             {
                 int sum = 0;
@@ -40,9 +43,13 @@ namespace Chess8Queen
                     return false;
                 }
             }
-         
-            return true;
+
+
+              return true;
         }
+
+
+
         static void Main(string[] args)
         {
             
