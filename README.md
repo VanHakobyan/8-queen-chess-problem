@@ -7,7 +7,7 @@
 
 ```C#
 
-//first
+
             for (int i = 0; i < N; i++)
             {
                 int sum = 0;
@@ -22,7 +22,7 @@
             }
 
 
-            //second
+        
             for (int i = 0, j = N - 2; j >= 0; j--)
             {
                 int sum = 0;
