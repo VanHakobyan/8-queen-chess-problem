@@ -56,9 +56,24 @@ namespace Chess8Queen
                     return false;
                 }
             }
+            //fourth
+            for (int i = 0, j = 1; j < N; j++)
+            {
+                int sum = 0;
+                for (int p = i, q = j; q >= 0; p++, q--)
+                {
+                    sum = sum + board[p, q];
+                }
+                if (sum > 1)
+                {
+                    return false;
+                }
+            }
 
 
-           
+          
+
+
 
 
             return true;
