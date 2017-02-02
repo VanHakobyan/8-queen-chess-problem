@@ -14,7 +14,7 @@ Should a solution be equivalent to its own 180° rotation (but not to its 90° r
 
 <br><br><br><br>
 
-```csharp
+```C#
 
 
 for (int i = 0; i < N; i++)
