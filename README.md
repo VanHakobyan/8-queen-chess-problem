@@ -8,33 +8,33 @@
 ```C#
 
 
-            for (int i = 0; i < N; i++)
-            {
-                int sum = 0;
-                for (int j = 0; j < N; j++)
-                {
-                    sum = sum + board[i, j];
-                }
-                if (sum > 1)
-                {
-                    return false;
-                }
-            }
+for (int i = 0; i < N; i++)
+{
+    int sum = 0;
+    for (int j = 0; j < N; j++)
+    {
+        sum = sum + board[i, j];
+    }
+    if (sum > 1)
+    {
+        return false;
+    }
+}
 
 
-        
-            for (int i = 0, j = N - 2; j >= 0; j--)
-            {
-                int sum = 0;
-                for (int p = i, q = j; q < N; p++, q++)
-                {
-                    sum = sum + board[p, q];
-                }
-                if (sum > 1)
-                {
-                    return false;
-                }
-            }
+
+for (int i = 0, j = N - 2; j >= 0; j--)
+{
+    int sum = 0;
+    for (int p = i, q = j; q < N; p++, q++)
+    {
+        sum = sum + board[p, q];
+    }
+    if (sum > 1)
+    {
+        return false;
+    }
+}
 
 ```
 <br>
