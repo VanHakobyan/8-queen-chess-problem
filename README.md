@@ -13,4 +13,9 @@
 
 
 
+<p align="center">
+<img src="https://github.com/VanHakobyan/8-queen-chess-problem/blob/master/GIFchess.gif">
+</p>
+
+
 
